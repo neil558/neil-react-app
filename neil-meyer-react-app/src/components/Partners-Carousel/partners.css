@@ -1,0 +1,13 @@
+#partners { 
+    background-color: #0B0500; 
+}
+
+#partnersCarousel img {
+    width: 40%;
+    height: 40% !important;
+    object-fit: contain;
+}
+
+#heading {
+    font-size: 52px;
+}

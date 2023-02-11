@@ -1,0 +1,43 @@
+/* Navbar styles */
+
+#Navbar {
+  background:transparent;
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    -ms-transition: all .6s;
+    transition: all .6s;
+    backface-visibility: hidden;
+  
+  }
+  
+  .navbar-dark {
+    font-size: 15px;
+
+    text-transform: uppercase;
+  }
+
+  
+  .hover:hover {
+    color: #fff;
+  }
+  .hover:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+  
+  .navbar-expand-md  {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .navbar-brand {
+    background-color: darkslategray;
+    border-radius: 25px;
+  }
+  
+  .navbar ul li a.active {
+    background-color:#222;
+    color:white;
+  }
